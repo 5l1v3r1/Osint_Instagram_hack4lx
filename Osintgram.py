@@ -12,7 +12,7 @@ import printcolors as pc
 
 
 
-class Osint:
+class Osintgram:
     api = None
     geolocator = Nominatim()
     user_id = None
