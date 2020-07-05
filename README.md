@@ -35,16 +35,19 @@ Please introduce our channel to other friends
 ✂️●●●●●●●●●●●●●●●●●●●●●●●●●●●●
 
 
- __       __  __    __            __   ______                        __       ______  
-|  \     /  \|  \  |  \          |  \ /      \                      |  \     /      \ 
-| $$\   /  $$| $$  | $$ _______   \$$|  $$$$$$\ ______    _______  _| $$_   |  $$$$$$\
-| $$$\ /  $$$| $$__| $$|       \ |  \| $$_  \$$/      \  /       \|   $$ \  | $$$\| $$
-| $$$$\  $$$$| $$    $$| $$$$$$$\| $$| $$ \   |  $$$$$$\|  $$$$$$$ \$$$$$$  | $$$$\ $$
-| $$\$$ $$ $$ \$$$$$$$$| $$  | $$| $$| $$$$   | $$    $$ \$$    \   | $$ __ | $$\$$\$$
-| $$ \$$$| $$      | $$| $$  | $$| $$| $$     | $$$$$$$$ _\$$$$$$\  | $$|  \| $$_\$$$$
-| $$  \$ | $$      | $$| $$  | $$| $$| $$      \$$     \|       $$   \$$  $$ \$$  \$$$
- \$$      \$$       \$$ \$$   \$$ \$$ \$$       \$$$$$$$ \$$$$$$$     \$$$$   \$$$$$$ 
-                                                                                                                                                                     
+def printlogo():
+
+    pc.printout(" _                _    _  _   _        \n", pc.YELLOW)     
+    pc.printout("| |__   __ _  ___| | _| || | | |_  __  \n", pc.YELLOW)
+    pc.printout("| '_ \ / _` |/ __| |/ / || |_| \ \/ /  \n", pc.YELLOW)
+    pc.printout("| | | | (_| | (__|   <|__   _| |>  <   \n", pc.YELLOW)
+    pc.printout("|_| |_|\__,_|\___|_|\_\  |_| |_/_/\_\  \n", pc.YELLOW)
+                                     
+    print('\n')
+    pc.printout("Version 1.0 - Developed by hack4lx | ʍ4ղíƒҽՏԵ0 ϲվҍҽɾ ՏҽϲմɾíԵվ Եҽɑʍ™ | - 2020\n\n", pc.YELLOW)
+    pc.printout("Type 'list' to show all allowed commands\n")
+    pc.printout("Type 'FILE=y' to save results to files like '<target username>_<command>.txt (deafult is disabled)'\n")
+    pc.printout("Type 'FILE=n' to disable saving to files'\n")                                                                               
                                                                                       
 ✂️●●●●●●●●●●●●●●●●●●●●●●●●●●●●
 
